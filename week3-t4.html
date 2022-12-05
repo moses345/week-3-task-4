@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SBI Login Page
+        </title>
+        <link rel="icon" type="image/x-icon" href="favicon.jpg">
+        <style>
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content:space-evenly;
+          }
+          
+          img {
+            max-width: 70%;
+            max-height:70%;
+          }
+          
+          .text {
+            font-size: 20px;
+            padding-left: 20px;
+          }
+          .Credentials {
+            border: black;
+            border-width: 2px;
+            border-style: solid;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        
+          }
+          .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 30%;
+            
+        }
+        .Credentials button[type="submit"]{
+            text-align: center;
+            background: #ec32e9ef;
+            color: #fff;
+            border-radius: 20%;
+            cursor: pointer;
+            width: 50%;
+        }
+        .Credentials button[type="submit"]:hover {
+             background: #52dc87fb;
+        }
+            </style>
+    </head>
+    <body style="background-image:url('bg img.webp');background-size: cover;">
+    
+        <h1 style="text-align:center;text-shadow: 2px 2px 5px white;">Welcome to<br>
+            <b>SBI Bank grievance portal</b><hr ></h1>
+        
+        <div class="container">
+            <div class="image">
+                <img src="sbi.jpg" alt="Welcome to SBI">
+            </div>
+            <div class="text">
+                
+                <div class="Credentials">
+                    <form>
+                        <img src="login.jpg" alt="login" width="100px" height="100px" class="center">
+                        <h2 style="text-align:center"><u>LOGIN</u></h2>
+                        <label for="Username"><b><hr>A/c Number:</b></label><br>
+                        <input type="text" id="username" name="username" placeholder="Enter your a/c number" size="40"><br><br>
+                        <label for="Password"><b>Password</b></label><br>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" size="40"><br><br>
+                        <button type="submit" value="login">Login</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
